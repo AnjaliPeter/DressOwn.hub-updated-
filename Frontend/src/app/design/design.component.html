@@ -1,0 +1,22 @@
+<div>
+    <div class="main">
+        <div class="left">
+            <div class="buttons row" >
+                <a routerLink="/design" id="btn-radio1" class="btnradio" (click)="select()">Select</a>
+                <a routerLink="create" id="btn-radio2" class="btnradio" (click)="create()">Create</a>
+                <!-- <a [routerLink]="['/design', {outlets: {designarea:['create'],protoarea: ['create']}}]" id="btn-radio2" class="btnradio" (click)="create()">Create</a> -->
+            </div>
+            <hr>
+            <app-selectbar id="selectbar"></app-selectbar>
+            <app-createbar id="createbar"></app-createbar>
+            <!-- <span id="msg1">Oops! Currently unavailable section1...</span> -->
+            <!-- <span id="msg2">Oops! Currently unavailable section2...</span> -->
+            <!-- <br> -->
+            <!-- <router-outlet name="sidebar"></router-outlet> -->
+        </div>
+        <div class="right right-main">
+            <router-outlet class="right-cont"></router-outlet>
+            <router-outlet name="protoarea"></router-outlet>
+        </div>
+    </div>
+</div>
