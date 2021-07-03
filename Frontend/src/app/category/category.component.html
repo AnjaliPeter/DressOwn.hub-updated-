@@ -1,1 +1,20 @@
+<label for="tagline">Explore Our Designs...!</label>
+<div class="hl"></div>
 
+<div class="designs">
+  <div class="row">
+  <div *ngFor="let category of categoryObj">
+    <div class="gallery trend-decor">
+        <a target="_blank" [routerLink]="['/singledesign',category._id]">
+          <img src="../../assets/images/designs/{{category.image}}" alt="dress">
+        </a>
+        <p id="title">{{category.title}}</p>
+        <p id="price">₹{{category.price}} - {{category.offer}}<br>
+        {{category.size}}</p>
+    </div>
+  </div>
+</div>
+<br><br>
+<a href="#" id="loadmore-btn">Load More</a>
+<br>
+</div>
