@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan Script");
+
+
+.nav-decor{
+    background-color: rgb(133, 11, 133);
+    /* position: fixed; */
+    /* top: 0; */
+    /* width: 100%; */
+}
+
+#nav-btn{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#brand-btn{
+    color: white;
+    font-weight: bolder;
+    font-size: 38px;
+    margin-left: 1%;
+    margin-right: 2%;
+    font-family: "Kaushan Script";
+}
