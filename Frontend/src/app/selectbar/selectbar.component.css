@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Basic");
+@import url("https://fonts.googleapis.com/css?family=Andada");
+
+
+#category-head{
+    margin-left: 10px;
+    font-family: "Andada";
+}
+
+.category input[type="radio"] {
+    margin-left: 20px;
+}
+
+.price-range {
+    margin-left: 20px;
+    width: 150px;
+    font-family: "Basic";
+}
+
+label{
+    font-family: "Basic";
+    margin-left: 20px;
+}
+
+span{
+    margin-left: 20px;
+    font-family: "Basic";
+    font-size: smaller;
+    color: rgb(88, 85, 85);
+}
+

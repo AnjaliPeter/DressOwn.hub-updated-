@@ -1,0 +1,67 @@
+<div>
+    <div class="category">
+        <h5 id="category-head">Category</h5>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio1"   id="btnradio1" value="dresses" autocomplete="off" checked>
+        <label for="btnradio1">Dresses</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio1" id="btnradio1" value="Top" autocomplete="off">
+        <label for="btnradio1">Tops</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio1"  id="btnradio1" value="Kurti" autocomplete="off">
+        <label for="btnradio1">Kurtis</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio1" id="btnradio1" value="Gown" autocomplete="off">
+        <label for="btnradio1">Gowns</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio1" id="btnradio1" value="Skirt" autocomplete="off">
+        <label for="btnradio1">Skirts</label>
+    </div>
+    <hr>
+    <div class="category">
+        <h5 id="category-head">Color</h5>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio2" id="btnradio1" value="All colors" autocomplete="off" checked>
+        <label for="btnradio1">All colors</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio2" id="btnradio1" value="Red" autocomplete="off">
+        <label for="btnradio1">Red</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio2" id="btnradio1" value="Green" autocomplete="off">
+        <label for="btnradio1">Green</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio2" id="btnradio1" value="Blue" autocomplete="off">
+        <label for="btnradio1">Blue</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio2" id="btnradio1" value="Black" autocomplete="off">
+        <label for="btnradio1">Black</label>
+        <br>
+        <input type="radio" class="select-check" (click)="category()" name="btnradio2" id="btnradio1" value="Yellow" autocomplete="off">
+        <label for="btnradio1">Yellow</label>
+    </div>
+    <hr>
+    <div class="category">
+        <h5 id="category-head">Price</h5>
+        <ngx-slider class="price-range" [(value)]="value" [(highValue)]="highValue" [options]="options" (click)="category()"></ngx-slider>
+        <br>
+        <span id="msg">Between ₹200 - ₹5000</span>
+        <br>
+        <!-- <input type="range" class="min-check" (click)="category()" name="btnradio3" id="btnradio1" min="200" max="25000" value="200" autocomplete="off" checked>
+        <label for="btnradio1">Minimum Price</label>
+        <br>
+        <input type="range" class="max-check" (click)="category()" name="btnradio4" id="btnradio1" min="200" max="25000" value="25000" autocomplete="off">
+        <label for="btnradio1">Maximum Price</label>
+        <br>
+        <span id="msg">Between ₹200 - ₹25000</span> -->
+        <!-- <input type="radio" class="select-check" name="btnradio3" routerLink="/design/select/price/500/1000" id="btnradio1" value="500-1000" autocomplete="off">
+        <label for="btnradio1">Rs.500 - Rs.1000</label>
+        <br>
+        <input type="radio" class="select-check" name="btnradio3" routerLink="/design/select/price/1000/5000" id="btnradio1" value="1000-5000" autocomplete="off">
+        <label for="btnradio1">Rs.1000 - Rs.5000</label>
+        <br>
+        <input type="radio" class="select-check" name="btnradio3" routerLink="/design/select/price/5000/10000" id="btnradio1" value="5000-10000" autocomplete="off">
+        <label for="btnradio1">Rs.5000 - Rs.10000</label>
+        <br>
+        <input type="radio" class="select-check" name="btnradio3" routerLink="/design/select/price/10000/25000" id="btnradio1" value="10000-25000" autocomplete="off">
+        <label for="btnradio1">Rs.10000 - Rs.25000</label> -->
+    </div>
+    <hr>
+</div>
