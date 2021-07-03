@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Basic");
+@import url("https://fonts.googleapis.com/css?family=Andada");
+
+
+#category-head{
+    margin-left: 10px;
+    font-family: "Andada";
+}
+
+.category input[type="radio"] {
+    margin-left: 20px;
+}
+
+label{
+    font-family: "Basic";
+    margin-left: 20px;
+}
+
+
+
+/* .main{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-content: center;
+}
+
+.left{
+    background-color: rgb(248, 218, 248);
+    width: 50%;
+    height: 550px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+} */
