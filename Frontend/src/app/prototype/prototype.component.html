@@ -1,1 +1,22 @@
+<div class="hl"></div>
+
+<div class="proto-page">
+  <div class="designs">
+    <div class="row">
+    <div *ngFor="let prototype of protoObj">
+      <div class="gallery trend-decor">
+          <!-- <a target="_blank" [routerLink]="['/singledesign',category._id]"> -->
+            <img src="../../assets/images/prototypes/{{prototype.image}}" alt="prototype">
+          <!-- </a> -->
+          <!-- <p id="title">{{category.title}}</p>
+          <p id="price">₹{{category.price}} - {{category.offer}}<br>
+          {{category.size}}</p> -->
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <button id="loadmore-btn">Load More</button>
+  <br>
+  </div>
+</div>
 
