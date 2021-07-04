@@ -1,7 +1,5 @@
 # DressOwn.hub
 
-# DressOwn.hub
-
 DressOwn.hub - Your Perfect Styling Partner          
 
   DressOwn.hub is the place where you can find the best of designer clothes as well as designers for women. If you want to experience the best of women’s wear  online, DressOwn.hub is just the right place. We at DressOwn.hub have the best variety of the latest designs and styles of women’s clothing amongst all other women’s clothing stores.                       
